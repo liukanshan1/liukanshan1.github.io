@@ -6,7 +6,7 @@
     <meta name="referrer" content="origin">
     <meta http-equiv="Cache-Control" content="no-transform">
     <meta http-equiv="Cache-Control" content="no-siteapp">
-    <title>标签 - C++</title>
+    <title>灰度图像压缩STC和RNAM算法</title>
     <link rel="shortcut icon" href="#"/>
 
     <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/LongCang.css">
@@ -18,261 +18,167 @@
     <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/Rosario.css">
     <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/font/UbuntuMono.css">
 
-    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/index.css">
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/post.css">
+    
+        <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/css/normal.css">
+    
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/first19326/cdn@master/static/js/jquery-3.4.1.min.js"></script>
+
 <meta name="generator" content="Hexo 5.4.0"></head>
 <body>
     <a id="cover"></a>
     <div id="header">
-    <div class="header" >
+    <div class="header">
         <div class="vertical">
             <div class="inner">
-                <h1 class="header-title"></h1>
-                <h2 class="header-description" id="hitokoto"></h2>
-                <h3 class="header-info" id="hitokotoAuthor"></h3>
-                <!--
-                <h1 class="header-subtitle"></h1>
-                <p class="header-subinfo"></p>
-                -->
+                <h1 class="header-subtitle">灰度图像压缩STC和RNAM算法</h1>
+                <div class="header-subinfo">
+                    <p class="article-info-text">
+                        <span>
+                            <i class="iconfont icon-time"></i> 发表时间：2022-06-01
+                        </span>
+                        
+                            <span id="/2022/06/01/灰度图像压缩STC和RNAM算法/" class="leancloud_visitors" data-flag-title="灰度图像压缩STC和RNAM算法">
+                                <i class="iconfont icon-browse"></i> 阅读：<sapn class="leancloud-visitors-count"></span>
+                            </span>
+                        
+                        <span>
+                            <i class="iconfont icon-interactive"></i> 评论：<span class="valine-comment-count" data-xid="/2022/06/01/灰度图像压缩STC和RNAM算法/"></span>
+                        </span>  
+                    </p>                 
+                </div>
             </div>
         </div>
-        <a class="scroll-down" href="javascript:;" target="_self" data-offset="-45">
-            <span class="hidden">Scroll Down</span>
-            <i class="scroll-down-icon iconfont icon-return"></i>
-        </a>
+        <canvas id="articleHeaderCanvas"></canvas>
     </div>
 </div>
     <div id="container">
     <div id="content">
-        <div class="articles">
-    
-        <div class="article">
-            <div class="article-title">
-                <a href="/2022/06/01/%E7%81%B0%E5%BA%A6%E5%9B%BE%E5%83%8F%E5%8E%8B%E7%BC%A9STC%E5%92%8CRNAM%E7%AE%97%E6%B3%95/">灰度图像压缩STC和RNAM算法</a>
-                
+        <div id="article">
+    <div class="toc"></div>
+    <div class="article-body">
+        <h1 id="灰度图像压缩STC和RNAM算法"><a href="#灰度图像压缩STC和RNAM算法" class="headerlink" title="灰度图像压缩STC和RNAM算法"></a>灰度图像压缩STC和RNAM算法</h1><p>​        传统的图像表示方法主要是二维数组（矩阵）表示方法。但由于图像处理在各方面的广泛应用和其它学科的飞速发展,对图像处理的研究提出了处理速度和存贮空间的更高要求。这样,二维数组的空间效率及其“样点—样点”的运算方式已不能适应发展的需要,取而代之的应该是既紧凑又便于做各种图像处理运算的表示方法。本项目提供灰度图像压缩的STC和RNAM算法，RNAM算法采用的是对角线优先的策略。RNAM算法和STC算法编码时间复杂度为 O(nlogn)，解码时间复杂度为 O(n)。</p>
+<h2 id="内容列表"><a href="#内容列表" class="headerlink" title="内容列表"></a>内容列表</h2><ul>
+<li><a href="#%E5%AE%89%E8%A3%85">安装</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E">使用说明</a></li>
+<li><a href="#%E9%A1%B9%E7%9B%AE%E7%BB%93%E6%9E%84">项目结构</a></li>
+<li><a href="#%E7%BB%B4%E6%8A%A4%E8%80%85">维护者</a></li>
+<li><a href="#%E8%B4%A1%E7%8C%AE%E8%80%85">贡献者</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E8%B4%A1%E7%8C%AE">如何贡献</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8%E8%AE%B8%E5%8F%AF">使用许可</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE">参考文献</a></li>
+</ul>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p><a target="_blank" rel="noopener" href="https://github.com/SCUT-CS/Project-1/releases">Github Release</a></p>
+<h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><img src="https://github.com/SCUT-CS/Project-1/blob/main/Image/%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E7%A4%BA%E6%84%8F%E5%9B%BE.png?raw=true" alt="程序运行示意图" style="zoom: 50%;" />
+
+<ol>
+<li><p>打开图片：菜单栏—打开图片或在点击界面上半部分的打开图像按钮。</p>
+</li>
+<li><p>编辑参数：在程序界面上半部分输入算法需要的参数。</p>
+</li>
+<li><p>点击主界面上的Start按钮，算法即开始执行。</p>
+</li>
+<li><p>算法执行完毕后在主界面的下半部分查看结果。</p>
+</li>
+<li><p>保存图片：菜单栏—保存图片或点击界面下半部分的保存按钮。</p>
+</li>
+</ol>
+<h2 id="项目结构"><a href="#项目结构" class="headerlink" title="项目结构"></a>项目结构</h2><ul>
+<li><p>图形化界面采用Qt开发，算法实现采用C++和OpenCV 4，测试采用Google Test。</p>
+</li>
+<li><p>项目文件采用Visual Studio 2022</p>
+</li>
+<li><p>类结构：</p>
+<ol>
+<li><p>Class TreeNode：树的节点，存储树的数据结构。</p>
+</li>
+<li><p>Class Tree：内部包含树的数据结构类TreeNode，存储树的数据结构。Tree类主要提供树的方法，例如addChild、levelOrder等。</p>
+</li>
+<li><p>Class TreeIterator: 树的迭代器。</p>
+</li>
+<li><p>Class Algo：实现算法流程。</p>
+</li>
+<li><p>Class Calculate：计算算法执行结果。</p>
+</li>
+<li><p>Class DPInterface：RNAM的算法接口，图形化界面通过调用此类下面的静态函数来调用RNAM算法。</p>
+</li>
+<li><p>Class STCInterface：STC算法接口，使用方法同上。</p>
+</li>
+<li><p>Class Segment：存储分割有关数据，提供区域分割方法。</p>
+</li>
+<li><p>Class Variables：存储STC算法执行时需要的输入信息，提供一部分内联函数。</p>
+</li>
+<li><p>Class AlgoThread：创建新线程，执行算法。</p>
+</li>
+<li><p>Class Window：图形化界面。</p>
+</li>
+</ol>
+</li>
+<li><p>程序流程：</p>
+<p><img src="https://github.com/SCUT-CS/Project-1/blob/main/Image/%E7%A8%8B%E5%BA%8F%E6%B5%81%E7%A8%8B.png?raw=true" alt="程序流程图"></p>
+</li>
+</ul>
+<h2 id="维护者"><a href="#维护者" class="headerlink" title="维护者"></a>维护者</h2><p><a target="_blank" rel="noopener" href="https://github.com/liukanshan1">@liukanshan1</a></p>
+<h2 id="贡献者"><a href="#贡献者" class="headerlink" title="贡献者"></a>贡献者</h2><p>感谢以下参与项目的人：</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/Palettone">@Palettone</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/kkxx0v0">@kkxx0v0</a></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/haohao1103">@haohao1103</a></p>
+<h2 id="如何贡献"><a href="#如何贡献" class="headerlink" title="如何贡献"></a>如何贡献</h2><p>非常欢迎你的加入！<a target="_blank" rel="noopener" href="https://github.com/SCUT-CS/Project-1/issues">提一个 Issue</a> 或者提交一个 Pull Request。</p>
+<p>本项目遵循 <a target="_blank" rel="noopener" href="http://contributor-covenant.org/version/1/3/0/">Contributor Covenant</a> 行为规范。</p>
+<h2 id="使用许可"><a href="#使用许可" class="headerlink" title="使用许可"></a>使用许可</h2><p><a href="licence">MIT License</a> © SCUT-CS/team-11</p>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><p>郑运平, 陈传波. 一种新的灰度图像表示算法研究[J]. 计算机学报, 2010(12):10.</p>
+
+        <p class="suffix-end">__END__</p>
+        <div class="suffix-box">
+            <div class="suffix-box-left">
+                <img src="https://avatars.githubusercontent.com/u/85719360?v=4" alt="Aroc">
             </div>
-            <div class="article-abstract">
-                
+            <div class="suffix-box-right">
+                <span class="suffix-box-title">文章作者</span>：Aroc
+                <br>
+                <span class="suffix-box-title">文章出处</span>：<a href="/2022/06/01/%E7%81%B0%E5%BA%A6%E5%9B%BE%E5%83%8F%E5%8E%8B%E7%BC%A9STC%E5%92%8CRNAM%E7%AE%97%E6%B3%95/" target="_blank">灰度图像压缩STC和RNAM算法</a>
+                <br>
+                <span class="suffix-box-title">作者签名</span>：嗷呜~
+                <br>
+                <span class="suffix-box-title">关于主题</span>：<a href="https://github.com/first19326/Hexo-LiveForCode" target="_blank">Hexo - Live For Code</a>
+                <br>
+                <span class="suffix-box-title">版权声明</span>：转载请注明出处
+                <br>
             </div>
-            <div class="clear"></div>
-            <div class="article-info">
-                <span>
-                    <i class="iconfont icon-time"></i> 发表时间：2022-06-01
-                </span>
-                
-                    <span id="/2022/06/01/灰度图像压缩STC和RNAM算法/" class="leancloud_visitors" data-flag-title="灰度图像压缩STC和RNAM算法">
-                        <i class="iconfont icon-browse"></i> 阅读：<sapn class="leancloud-visitors-count"></span>
-                    </span>
-                
-                <span>
-                    <i class="iconfont icon-interactive"></i> 评论：<span class="valine-comment-count" data-xid="/2022/06/01/灰度图像压缩STC和RNAM算法/"></span>
-                </span>
-            </div>
-            <div class="clear"></div>     
+            <div style="clear: both;"></div>
         </div>
-    
-        <div class="article">
-            <div class="article-title">
-                <a href="/2022/04/01/%E5%9F%BA%E4%BA%8E%E9%93%BE%E8%A1%A8%E5%AE%9E%E7%8E%B0%E9%95%BF%E6%95%B4%E6%95%B0%E8%BF%90%E7%AE%97%E3%80%81%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%973/">基于链表实现长整数运算、高精度运算3</a>
+    </div>
+    <div class="article-footer">
+        
+        
+            <div class="tag">
+                标签：
+                
+                    <a href="/tag/C/">C++</a>
+                
+                    <a href="/tag/QT/">QT</a>
+                
+                    <a href="/tag/OpenCV/">OpenCV</a>
                 
             </div>
-            <div class="article-abstract">
-                
-            </div>
-            <div class="clear"></div>
-            <div class="article-info">
-                <span>
-                    <i class="iconfont icon-time"></i> 发表时间：2022-04-01
-                </span>
-                
-                    <span id="/2022/04/01/基于链表实现长整数运算、高精度运算3/" class="leancloud_visitors" data-flag-title="基于链表实现长整数运算、高精度运算3">
-                        <i class="iconfont icon-browse"></i> 阅读：<sapn class="leancloud-visitors-count"></span>
-                    </span>
-                
-                <span>
-                    <i class="iconfont icon-interactive"></i> 评论：<span class="valine-comment-count" data-xid="/2022/04/01/基于链表实现长整数运算、高精度运算3/"></span>
-                </span>
-            </div>
-            <div class="clear"></div>     
+        
+        <div class="article-prev-next">
+            
+            
+                <a href="/2022/04/01/%E5%9F%BA%E4%BA%8E%E9%93%BE%E8%A1%A8%E5%AE%9E%E7%8E%B0%E9%95%BF%E6%95%B4%E6%95%B0%E8%BF%90%E7%AE%97%E3%80%81%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%973/" class="next-prefix">» </a> 下一篇：    <a href="/2022/04/01/%E5%9F%BA%E4%BA%8E%E9%93%BE%E8%A1%A8%E5%AE%9E%E7%8E%B0%E9%95%BF%E6%95%B4%E6%95%B0%E8%BF%90%E7%AE%97%E3%80%81%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%973/" title="发布于 2022-04-01 12:30">基于链表实现长整数运算、高精度运算3</a>
+            
         </div>
+    </div>
     
-        <div class="article">
-            <div class="article-title">
-                <a href="/2022/03/29/DeleteNotes-%E5%88%A0%E9%99%A4C-%E6%B3%A8%E9%87%8A/">DeleteNotes 删除C++注释</a>
-                
-            </div>
-            <div class="article-abstract">
-                
-            </div>
-            <div class="clear"></div>
-            <div class="article-info">
-                <span>
-                    <i class="iconfont icon-time"></i> 发表时间：2022-03-29
-                </span>
-                
-                    <span id="/2022/03/29/DeleteNotes-删除C-注释/" class="leancloud_visitors" data-flag-title="DeleteNotes 删除C++注释">
-                        <i class="iconfont icon-browse"></i> 阅读：<sapn class="leancloud-visitors-count"></span>
-                    </span>
-                
-                <span>
-                    <i class="iconfont icon-interactive"></i> 评论：<span class="valine-comment-count" data-xid="/2022/03/29/DeleteNotes-删除C-注释/"></span>
-                </span>
-            </div>
-            <div class="clear"></div>     
+    <div class="article-comments">
+        <div class="comments-title">
+            评论列表
         </div>
-    
-        <div class="article">
-            <div class="article-title">
-                <a href="/2022/02/21/%E5%9F%BA%E4%BA%8E%E9%93%BE%E8%A1%A8%E5%AE%9E%E7%8E%B0%E9%95%BF%E6%95%B4%E6%95%B0%E8%BF%90%E7%AE%97%E3%80%81%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%972/">基于链表实现长整数运算、高精度运算2</a>
-                
-            </div>
-            <div class="article-abstract">
-                
-            </div>
-            <div class="clear"></div>
-            <div class="article-info">
-                <span>
-                    <i class="iconfont icon-time"></i> 发表时间：2022-02-21
-                </span>
-                
-                    <span id="/2022/02/21/基于链表实现长整数运算、高精度运算2/" class="leancloud_visitors" data-flag-title="基于链表实现长整数运算、高精度运算2">
-                        <i class="iconfont icon-browse"></i> 阅读：<sapn class="leancloud-visitors-count"></span>
-                    </span>
-                
-                <span>
-                    <i class="iconfont icon-interactive"></i> 评论：<span class="valine-comment-count" data-xid="/2022/02/21/基于链表实现长整数运算、高精度运算2/"></span>
-                </span>
-            </div>
-            <div class="clear"></div>     
+        <div class="comments-content">
         </div>
-    
-        <div class="article">
-            <div class="article-title">
-                <a href="/2022/02/21/%E5%9F%BA%E4%BA%8E%E9%93%BE%E8%A1%A8%E5%AE%9E%E7%8E%B0%E9%95%BF%E6%95%B4%E6%95%B0%E8%BF%90%E7%AE%97%E3%80%81%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%90%E7%AE%971/">基于链表实现长整数运算、高精度运算1</a>
-                
-            </div>
-            <div class="article-abstract">
-                
-            </div>
-            <div class="clear"></div>
-            <div class="article-info">
-                <span>
-                    <i class="iconfont icon-time"></i> 发表时间：2022-02-21
-                </span>
-                
-                    <span id="/2022/02/21/基于链表实现长整数运算、高精度运算1/" class="leancloud_visitors" data-flag-title="基于链表实现长整数运算、高精度运算1">
-                        <i class="iconfont icon-browse"></i> 阅读：<sapn class="leancloud-visitors-count"></span>
-                    </span>
-                
-                <span>
-                    <i class="iconfont icon-interactive"></i> 评论：<span class="valine-comment-count" data-xid="/2022/02/21/基于链表实现长整数运算、高精度运算1/"></span>
-                </span>
-            </div>
-            <div class="clear"></div>     
-        </div>
-    
-        <div class="article">
-            <div class="article-title">
-                <a href="/2022/02/21/%E7%AE%97%E6%B3%95%E6%A1%88%E4%BE%8B1/">算法案例1</a>
-                
-            </div>
-            <div class="article-abstract">
-                
-            </div>
-            <div class="clear"></div>
-            <div class="article-info">
-                <span>
-                    <i class="iconfont icon-time"></i> 发表时间：2022-02-21
-                </span>
-                
-                    <span id="/2022/02/21/算法案例1/" class="leancloud_visitors" data-flag-title="算法案例1">
-                        <i class="iconfont icon-browse"></i> 阅读：<sapn class="leancloud-visitors-count"></span>
-                    </span>
-                
-                <span>
-                    <i class="iconfont icon-interactive"></i> 评论：<span class="valine-comment-count" data-xid="/2022/02/21/算法案例1/"></span>
-                </span>
-            </div>
-            <div class="clear"></div>     
-        </div>
-    
-        <div class="article">
-            <div class="article-title">
-                <a href="/2021/12/13/%E6%9C%9F%E6%9C%AB%E7%BB%83%E4%B9%A0/">期末练习</a>
-                
-            </div>
-            <div class="article-abstract">
-                
-            </div>
-            <div class="clear"></div>
-            <div class="article-info">
-                <span>
-                    <i class="iconfont icon-time"></i> 发表时间：2021-12-13
-                </span>
-                
-                    <span id="/2021/12/13/期末练习/" class="leancloud_visitors" data-flag-title="期末练习">
-                        <i class="iconfont icon-browse"></i> 阅读：<sapn class="leancloud-visitors-count"></span>
-                    </span>
-                
-                <span>
-                    <i class="iconfont icon-interactive"></i> 评论：<span class="valine-comment-count" data-xid="/2021/12/13/期末练习/"></span>
-                </span>
-            </div>
-            <div class="clear"></div>     
-        </div>
-    
-        <div class="article">
-            <div class="article-title">
-                <a href="/2021/12/13/2021%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%A4%A7%E7%B1%BB1-4%E7%8F%AD14%E5%91%A8%E4%B8%8A%E6%9C%BA%E6%B5%8B%E8%AF%95/">2021级计算机大类1-4班14周上机测试</a>
-                
-            </div>
-            <div class="article-abstract">
-                
-            </div>
-            <div class="clear"></div>
-            <div class="article-info">
-                <span>
-                    <i class="iconfont icon-time"></i> 发表时间：2021-12-13
-                </span>
-                
-                    <span id="/2021/12/13/2021级计算机大类1-4班14周上机测试/" class="leancloud_visitors" data-flag-title="2021级计算机大类1-4班14周上机测试">
-                        <i class="iconfont icon-browse"></i> 阅读：<sapn class="leancloud-visitors-count"></span>
-                    </span>
-                
-                <span>
-                    <i class="iconfont icon-interactive"></i> 评论：<span class="valine-comment-count" data-xid="/2021/12/13/2021级计算机大类1-4班14周上机测试/"></span>
-                </span>
-            </div>
-            <div class="clear"></div>     
-        </div>
-    
-        <div class="article">
-            <div class="article-title">
-                <a href="/2021/12/13/2021%E7%BA%A7%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%A4%A7%E7%B1%BB1-4%E7%8F%AD15%E5%91%A8%E4%B8%8A%E6%9C%BA%E6%B5%8B%E8%AF%95/">2021级计算机大类1-4班15周上机测试</a>
-                
-            </div>
-            <div class="article-abstract">
-                
-            </div>
-            <div class="clear"></div>
-            <div class="article-info">
-                <span>
-                    <i class="iconfont icon-time"></i> 发表时间：2021-12-13
-                </span>
-                
-                    <span id="/2021/12/13/2021级计算机大类1-4班15周上机测试/" class="leancloud_visitors" data-flag-title="2021级计算机大类1-4班15周上机测试">
-                        <i class="iconfont icon-browse"></i> 阅读：<sapn class="leancloud-visitors-count"></span>
-                    </span>
-                
-                <span>
-                    <i class="iconfont icon-interactive"></i> 评论：<span class="valine-comment-count" data-xid="/2021/12/13/2021级计算机大类1-4班15周上机测试/"></span>
-                </span>
-            </div>
-            <div class="clear"></div>     
-        </div>
-    
-    
+    </div>
+
 </div>
 
     </div>
