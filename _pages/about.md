@@ -5,12 +5,12 @@ permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: cyx.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>+86 191 1034 3115</p>
-    <p>番禺区广州大学城外环东路382号华南理工大学</p>
+    <p>华南理工大学大学城校区</p>
     <p>广州, 广东</p>
 
 news: false  # includes a list of news items
