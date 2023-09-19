@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: 崔钰薪
     - name: Date of Birth
-      value: 14th March 1879
+      value: 2002年12月14日
     - name: Languages
-      value: English, German
+      value: 中文, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: 学士
+      institution: 华南理工大学
+      year: 2025
       description:
         - Description 1.
         - Description 2.
