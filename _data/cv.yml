@@ -1,19 +1,19 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: 崔钰薪
+    - name: Yuxin Cui
+      value: Albert Einstein
     - name: Date of Birth
-      value: 2002年12月14日
+      value: 14th March 1879
     - name: Languages
-      value: 中文, English
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: 学士
-      institution: 华南理工大学
-      year: 2025
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
         - Description 1.
         - Description 2.
