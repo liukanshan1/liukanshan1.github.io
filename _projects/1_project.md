@@ -1,11 +1,12 @@
 ---
 layout: page
-title: project 1
+title: 2023年国家级大创--基于同态加密的安全高效图像云存
+储与云计算系统研究
 description: a project with a background image
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: einstein1956investigations, einstein1950meaning
+related_publications: 
 ---
 
 Every project has a beautiful feature showcase page.
