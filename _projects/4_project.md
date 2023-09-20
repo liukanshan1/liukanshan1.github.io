@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: 联邦学习ECG心电图诊断模型训练与预测
+description: 采用明文模型平均
 img:
 importance: 3
 category: fun
+related_publications: ribeiro2020automatic
 ---
 
 Every project has a beautiful feature showcase page.
