@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
+title: Windows性能监控面板
+description: 基于C++使用Windows API和Qt开发
+img: 
 importance: 3
 category: fun
 ---
