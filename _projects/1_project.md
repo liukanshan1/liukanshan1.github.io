@@ -1,12 +1,11 @@
 ---
 layout: page
-title: 2023年国家级大创--基于同态加密的安全高效图像云存
-储与云计算系统研究
-description: a project with a background image
+title: 灰度图像分割/压缩的STC和RNAM算法实现
+description: C++课程大作业
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: 
+related_publications: zyp2010
 ---
 
 Every project has a beautiful feature showcase page.
