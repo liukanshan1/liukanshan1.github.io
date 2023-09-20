@@ -4,7 +4,7 @@ title: 联邦学习ECG心电图诊断模型训练与预测
 description: 采用明文模型平均
 img:
 importance: 3
-category: fun
+category: work
 related_publications: ribeiro2020automatic
 ---
 
