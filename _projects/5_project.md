@@ -4,7 +4,7 @@ title: Windows性能监控面板
 description: 基于C++使用Windows API和Qt开发
 img: 
 importance: 3
-category: fun
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: 删除C++代码中注释小工具
-description: 删除C++中的注释内容，用于OJ系统的提交等
+title: 联邦学习ECG心电图诊断模型训练与预测
+description: 采用明文模型平均 Python
 img:
-importance: 4
+importance: 3
 category: work
+related_publications: ribeiro2020automatic
 ---
 
 Every project has a beautiful feature showcase page.

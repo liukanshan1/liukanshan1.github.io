@@ -1,10 +1,11 @@
 ---
 layout: page
-title: 删除C++代码中注释小工具
-description: 删除C++中的注释内容，用于OJ系统的提交等
-img:
-importance: 4
+title: 灰度图像分割/压缩的STC和RNAM算法实现
+description: C++课程大作业
+img: assets/img/pj1.png
+importance: 1
 category: work
+related_publications: zyp2010
 ---
 
 Every project has a beautiful feature showcase page.
