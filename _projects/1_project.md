@@ -2,7 +2,7 @@
 layout: page
 title: 灰度图像分割/压缩的STC和RNAM算法实现
 description: C++课程大作业
-img: assets/img/12.jpg
+img: assets/img/pj1.png
 importance: 1
 category: work
 related_publications: zyp2010
