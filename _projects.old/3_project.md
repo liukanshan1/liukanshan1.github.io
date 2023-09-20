@@ -1,9 +1,10 @@
 ---
 layout: page
-title: 删除C++代码中注释小工具
-description: 删除C++中的注释内容，用于OJ系统的提交等
-img:
-importance: 4
+title: project 3
+description: a project that redirects to another website
+img: assets/img/7.jpg
+redirect: https://unsplash.com
+importance: 3
 category: work
 ---
 

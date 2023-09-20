@@ -1,10 +1,11 @@
 ---
 layout: page
-title: 删除C++代码中注释小工具
-description: 删除C++中的注释内容，用于OJ系统的提交等
-img:
-importance: 4
+title: 矩阵乘法的GPU实现和优化
+description: 使用Block分块法基于cuda实现，与MKL和cublas对比性能
+img: 
+importance: 2
 category: work
+giscus_comments: false
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 删除C++代码中注释小工具
-description: 删除C++中的注释内容，用于OJ系统的提交等
-img:
-importance: 4
-category: work
+title: Windows性能监控面板
+description: 基于C++使用Windows API和Qt开发
+img: 
+importance: 3
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.
