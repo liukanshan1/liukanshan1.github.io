@@ -4,7 +4,7 @@ title: Berkeley CS61A 课程实验和项目
 description: Structure and Interpretation of Computer Programs
 img: 
 importance: 3
-category: class
+category: class2
 ---
 
 Every project has a beautiful feature showcase page.

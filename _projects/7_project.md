@@ -7,8 +7,6 @@ importance: 3
 category: work
 ---
 
-# Gitlet 自己实现的本地Git版本控制工具
-Berkeley CS61B 数据结构课程项目
 ## 支持init初始化仓库命令
 
 - **Usage**: `java gitlet.Main init`
