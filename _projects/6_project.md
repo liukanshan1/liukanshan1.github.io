@@ -11,6 +11,8 @@ category: work
 
 删除C++中的注释内容，用于OJ系统的提交等。
 
+### [项目地址](https://github.com/liukanshan1/DeleteNotes)
+
 ## 内容列表
 
 - [安装](#安装)
@@ -32,8 +34,6 @@ category: work
 [@liukanshan1](https://github.com/liukanshan1)
 
 ## 如何贡献
-
-[项目地址]: https://github.com/liukanshan1/DeleteNotes
 
 非常欢迎你的加入！[提一个 Issue](https://github.com/liukanshan1/DeleteNotes/issues) 或者提交一个 Pull Request。
 
