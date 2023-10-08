@@ -7,78 +7,14 @@ importance: 3
 category: class
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### 课程背景
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+云计算正在成为日常生活的重要组成部分，因为它为银行、社交媒体、新闻、娱乐等领域的关键应用程序提供动力。这是一门项目驱动的课程，旨在介绍云计算的概念，教授还将引入人工智能的概念在云计算中。本课程 Mahesh 教授将逐步引导学生开发自己的云计算系统。这是“云计算简介”的课程。该课程介绍了云计算背后的概念、架构和算法，同时使用实验性动手操作的方法，让学生更加直观的了解云计算背后的概念。另外，本课程还将使用 Docker 容器框架作为基本构建块。学生将获得Docker 容器的基本介绍，并引导他们参与小型项目，这些项目将逐步开发一个近乎成熟的云计算系统。除了 Docker 容器，这些项目还将使用Python 编程语言，本课程还会引用人工智能作为示例。
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+### 任课教师
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Prof. M M 目前是加拿大麦吉尔大学电气与计算机工程学院的副教授。Mahesh 教授于 2003 年 1 月加入麦吉尔。在加入麦吉尔之前，于1998年到 2002 年在曼尼托巴大学工作了四年。是曼尼托巴大学计算机科学系的助理教授。主要研究兴趣是计算机网络、信息安全和分布式系统的一般领域。
 
+### Class Expectation 
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-
-{% endraw %}
+Cloud computing is one of the most important parts of the modern infrastructure that is impacting our daily lives. After completing this course, you will have a good grasp of the anatomy of a cloud computing system. With the instructions provided as part of the projects, you will develop a simple cloud that in a simplified way would do many functions that are actually implemented in a real cloud. By completing the series of mini projects, you will gain significant knowledge about the inner workings of a cloud computing system.
