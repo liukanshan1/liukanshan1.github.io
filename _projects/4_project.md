@@ -10,6 +10,8 @@ related_publications: ribeiro2020automatic
 
 采用明文模型平均，模型结构和部分参考论文Automatic diagnosis of the 12-lead ECG using a deep neural network及其开源实现
 
+### [项目地址](https://github.com/liukanshan1/Fed-Avg)
+
 ### Scripts
 
 - `train.py`: Script for training the neural network. To train the neural network run:
@@ -34,4 +36,3 @@ $ python predict.py .\data\test_set\ .\final_model.hdf5
 $ python generate_results.py
 ```
 
-[项目地址](https://github.com/liukanshan1/Fed-Avg)
