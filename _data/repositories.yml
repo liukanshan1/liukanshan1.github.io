@@ -4,6 +4,8 @@ github_users:
 github_repos:
   - liukanshan1/GEMM
   - SCUT-CS/STC-RNAM
+  - liukanshan1/PrivateLocation
+  - liukanshan1/Private-ACO
   - liukanshan1/liukanshan1.github.io
   - liukanshan1/Fed-Avg
   - liukanshan1/Gitlet
@@ -15,7 +17,7 @@ github_repos:
   - liukanshan1/CS61C
   - liukanshan1/AI-and-Cloud-Compute
   - liukanshan1/Notes
-  - liukanshan1/PrivateLocation
+  
 
   
 
