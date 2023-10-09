@@ -3,7 +3,7 @@ layout: page
 title: 麦吉尔大学人工智能与云计算
 description: 暑期PBL交流课程
 img: 
-importance: 3
+importance: 2
 category: class
 ---
 
