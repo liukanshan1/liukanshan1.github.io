@@ -3,7 +3,7 @@ layout: page
 title: 删除C++代码中注释小工具
 description: 删除C++中的注释内容，用于OJ系统的提交等
 img: assets/img/dln.jpg
-importance: 4
+importance: 3
 category: work
 ---
 
