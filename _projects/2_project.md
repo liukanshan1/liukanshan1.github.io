@@ -3,7 +3,7 @@ layout: page
 title: 矩阵乘法的GPU实现和优化
 description: 使用Block分块法基于cuda实现，与MKL和cublas对比性能
 img: 
-importance: 2
+importance: 3
 category: work
 giscus_comments: false
 ---
