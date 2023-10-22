@@ -39,7 +39,14 @@
     }
   ],
   "certificates": [
-// 软件著作权
+    {
+      "name": "软件著作权--安全且高效的图像云存储系统v1.0",
+      "date": "2023-02-22"
+    },
+    {
+      "name": "软件著作权--隐私保护时空接触追溯系统(已受理)",
+      "date": "2023-10-20"
+    }
   ],
   "publications": [],
   "skills": [
@@ -48,7 +55,7 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "四级 643/CET-6 589"
+      "fluency": "四级 643/六级 589"
     }
   ],
   "interests": [
