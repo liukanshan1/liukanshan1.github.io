@@ -49,20 +49,36 @@
     }
   ],
   "publications": [],
-  "skills": [
-
-  ],
+  "skills": [],
   "languages": [
     {
       "language": "English",
       "fluency": "四级 643/六级 589"
     }
   ],
-  "interests": [
-
-  ],
+  "interests": [],
   "references": [],
   "projects": [
-
+    {
+      "startDate": "2023-05-14",
+      "endDate": "2023-04-23",
+      "name" : "2023年华南理工大学SRP学生研究计划",
+      "summary": "基于大数据和自然语言处理的多源信息结构化分类系统（负责人）"
+      // "highlights": [
+      //   ""
+      // ]
+    },
+    {
+      "startDate": "2023-06-12",
+      "endDate": "2024-05-18",
+      "name" : "2023年国家级“大学生创新创业训练计划”项目",
+      "summary": "基于同态加密的安全高效图像云存储与云计算系统研究（负责人）"
+    },
+    {
+      "startDate": "2023-03-06",
+      "endDate": "2024-02-22",
+      "name" : "2023年华南理工大学“百步梯攀登计划”项目",
+      "summary": "基于同态加密的安全高效图像云存储与云计算系统研究（负责人）"
+    }
   ]
 }
