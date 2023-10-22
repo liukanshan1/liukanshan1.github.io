@@ -9,16 +9,16 @@
     "summary": "待定"
   },
   "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [
-        "Relativity"
-      ]
-    }
+    // {
+    //   "name": "Institute for Advanced Study, Princeton University",
+    //   "position": "Professor of Theoretical Physics",
+    //   "startDate": "1933-01-01",
+    //   "endDate": "1955-01-01",
+    //   "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+    //   "highlights": [
+    //     "Relativity"
+    //   ]
+    // }
   ],
   "volunteer": [],
   "education": [
@@ -48,7 +48,7 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "四级"
+      "fluency": "四级643/六级589"
     }
   ],
   "interests": [
@@ -56,6 +56,6 @@
   ],
   "references": [],
   "projects": [
-    
+
   ]
 }
