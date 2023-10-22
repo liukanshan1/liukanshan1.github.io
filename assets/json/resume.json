@@ -27,30 +27,35 @@
       "area": "计算机科学与技术",
       "studyType": "本科",
       "startDate": "2021-09-01",
-      "endDate": "至今",
-      "GPA": "3.58",
-      "courses": [
-        "Theory of Relativity"
-      ]
+      "endDate": "至今"
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "project": "The Royal Swedish Academy of Sciences"
+      "title": "“欣旺达”杯华南理工大学第十八届“挑战杯”大学生课外学术科技作品竞赛",
+      "date": "2023-03-14",
+      "awarder": "二等奖",
+      "summary": "安全且高效的图像云存储和云计算系统"
     }
   ],
-  "certificates": [],
+  "certificates": [
+
+  ],
   "publications": [],
-  "skills": [],
+  "skills": [
+
+  ],
   "languages": [
     {
       "language": "English",
       "fluency": "四级"
     }
   ],
-  "interests": [],
+  "interests": [
+
+  ],
   "references": [],
-  "projects": []
+  "projects": [
+    
+  ]
 }
