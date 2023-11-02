@@ -2,7 +2,7 @@
 layout: page
 title: PrivateTrace-Backend
 description: 2023年华南理工大学攀登计划，隐私保护的敏感人群轨迹接触追溯系统后端。使用SpringBoot框架和百度地图API开发，自定义B+树索引模拟数据库。
-img: https://github.com/liukanshan1/PrivateTrace-Core/raw/main/img/1.png?raw=true
+img: https://github.com/SCUT-CS/PrivateTrace-Backend/blob/main/img/4.png?raw=true
 importance: 3
 category: work
 related_publications:
