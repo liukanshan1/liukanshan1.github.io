@@ -30,6 +30,10 @@ social: true  # includes social icons at the bottom of the page
 
   
 
+- **PrivateTrace-Backend：**隐私保护的敏感人群轨迹接触追溯系统后端。使用`SpringBoot`框架和百度地图API。
+
+  
+
 - **灰度图像分割/压缩的STC和RNAM算法实现：**图形化界面采用`Qt`开发，算法实现采用`C++`和`OpenCV 4`，测试采用`Google Test`。
 
   
