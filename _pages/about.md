@@ -22,6 +22,10 @@ social: true  # includes social icons at the bottom of the page
 
 这里还有一些有趣的开源项目在`Project`页面欢迎你的使用和参与：
 
+- **PrivatePhotoCloud：**隐私保护的图像安全云存储与云计算。基于`Android`平台开发，使用阿里云对象云存储API。
+
+  
+
 - **PrivateTrace-Core：**隐私保护的敏感人群轨迹接触追溯算法。使用轨迹时空信息，基于同态加密、安全多方计算，使用`Java`实现。
 
   
