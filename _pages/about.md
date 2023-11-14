@@ -38,6 +38,10 @@ social: true  # includes social icons at the bottom of the page
 
   
 
+- **FileSystem：**模拟文件系统和Shell，使用`Boost`多进程和日志框架。支持多Shell进程同时发送指令而不发生竞争和死锁
+
+  
+
 - **灰度图像分割/压缩的STC和RNAM算法实现：**图形化界面采用`Qt`开发，算法实现采用`C++`和`OpenCV 4`，测试采用`Google Test`。
 
   
