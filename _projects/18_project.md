@@ -2,7 +2,7 @@
 layout: page
 title: FileSystem
 description: 模拟文件系统和Shell，使用Boost 多进程和日志框架。支持多Shell进程同时发送指令而不发生竞争和死锁。
-img: https://github.com/liukanshan1/FileSystem/blob/main/img/3.png?raw=true
+img: https://github.com/liukanshan1/FileSystem/blob/master/img/3.png?raw=true
 importance: 3
 category: work
 related_publications:
