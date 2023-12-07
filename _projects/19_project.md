@@ -2,7 +2,7 @@
 layout: page
 title: 在线购物网站
 description: 基于SpringBoot实现的购物网站
-img: assets/img/image12.png
+img: https://github.com/liukanshan1/liukanshan1.github.io/blob/master/assets/img/image12.png?raw=true
 importance: 3
 category: work
 ---
@@ -45,22 +45,22 @@ category: work
 
 ### 购物车界面
 
-![img](assets/img/image14.png)
+![img](https://github.com/liukanshan1/liukanshan1.github.io/blob/master/assets/img/image14.png?raw=true)
 
 ### 完成订单
 
 打开邮箱，收到订单邮件，点击链接完成订单：
 
-![img](assets/img/image18.png)
+![img](https://github.com/liukanshan1/liukanshan1.github.io/blob/master/assets/img/image18.png?raw=true)
 
 ### 商品管理界面
 
-![img](assets/img/image19.png)
+![img](https://github.com/liukanshan1/liukanshan1.github.io/blob/master/assets/img/image19.png?raw=true)
 
 ### 数据报表界面
 
-![img](assets/img/image20.png)
+![img](https://github.com/liukanshan1/liukanshan1.github.io/blob/master/assets/img/image20.png?raw=true)
 
-![img](assets/img/image21.png)
+![img](https://github.com/liukanshan1/liukanshan1.github.io/blob/master/assets/img/image21.png?raw=true)
 
-![img](assets/img/image22.png)
+![img](https://github.com/liukanshan1/liukanshan1.github.io/blob/master/assets/img/image22.png?raw=true)
