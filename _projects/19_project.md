@@ -2,7 +2,7 @@
 layout: page
 title: 在线购物网站
 description: 基于SpringBoot实现的购物网站
-img: image12.png
+img: assets/img/image12.png
 importance: 3
 category: work
 ---
@@ -41,26 +41,26 @@ category: work
 
 注册用户user11
 
-![img](image12.png) 
+![img](assets/img/image12.png) 
 
 ### 购物车界面
 
-![img](image14.png)
+![img](assets/img/image14.png)
 
 ### 完成订单
 
 打开邮箱，收到订单邮件，点击链接完成订单：
 
-![img](image18.png)
+![img](assets/img/image18.png)
 
 ### 商品管理界面
 
-![img](image19.png)
+![img](assets/img/image19.png)
 
 ### 数据报表界面
 
-![img](image20.png)
+![img](assets/img/image20.png)
 
-![img](image21.png)
+![img](assets/img/image21.png)
 
-![img](image22.png)
+![img](assets/img/image22.png)
