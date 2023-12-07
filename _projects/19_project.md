@@ -41,7 +41,7 @@ category: work
 
 注册用户user11
 
-![img](assets/img/image12.png) 
+![img](https://github.com/liukanshan1/liukanshan1.github.io/blob/master/assets/img/image12.png?raw=true) 
 
 ### 购物车界面
 
